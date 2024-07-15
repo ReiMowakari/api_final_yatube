@@ -50,7 +50,7 @@ class FollowViewSet(CreateModelMixin,
         IsAuthenticated,
         IsAuthorOrReadOnly,
     )
-    filter_backends = (
+    filter_backends = 
         SearchFilter,
     )
     search_fields = (
